@@ -50,7 +50,6 @@ notify { "Hello, my name is ${::hostname}": }
 #mode => '0644',
 #content => "Today I learned what it means to manage state using Puppet.\n",
 
-include users
 include skeleton
 
  #exec { "cowsay 'Welcome to ${::fqdn}!' > /etc/motd":
