@@ -1,7 +1,7 @@
 #
 class memcached{
 #PACKAGE
-package{'memcached':
+package { 'memcached':
 ensure => present,
 }
 
