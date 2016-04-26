@@ -16,10 +16,10 @@ file { '/etc/sysconfig/memcached':
 }
 
 #SERVICE
-service{memcached:
+service { 'memcached':
  ensure => running,
  enabled => true,
  subscribe => ['/etc/sysconfig/memchached'],
 }
 
-}
+} 
