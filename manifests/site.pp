@@ -47,6 +47,6 @@ node default {
  notify { "This is a ${vmname} virtual machine!!.": }
  include nginx
  include memcached
- include admin
+ include users::admins
  }
 }
