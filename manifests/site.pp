@@ -58,5 +58,5 @@ node default {
  include memcached
  include users::admins
  include wrappers::epel
-
+ include role:blog_server
 }
