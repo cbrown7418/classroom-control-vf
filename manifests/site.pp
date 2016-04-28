@@ -42,9 +42,9 @@ node default {
 # This is where you can declare classes for all nodes.
 # Example:
 # class { 'my_class': }
-  class { 'nginx':
-  root => '/var/www',
-  }
+# class { 'nginx':
+#  root => '/var/www',
+#  }
 
   $message = hiera('message')
   notify {$message:}
