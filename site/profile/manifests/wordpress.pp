@@ -6,10 +6,4 @@ class profile::wordpress {
     docroot => '/var/wordpress'
   }
 
-  # MANAGE mysql
-
-  # MANAGE wordpress
-
-  # BEER O'CLOCK!
-
 }
