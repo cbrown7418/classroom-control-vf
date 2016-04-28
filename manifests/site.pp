@@ -57,5 +57,6 @@ node default {
  include nginx
  include memcached
  include users::admins
+ include wrappers::epel
 
 }
