@@ -43,7 +43,7 @@ node default {
 # Example:
 # class { 'my_class': }
   class { 'nginx':
-  root => '/var/www/html',
+  root => '/var/www',
   }
 
   $message = hiera('message')
