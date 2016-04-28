@@ -54,7 +54,7 @@ node default {
 # $vmname = capitalize($::virtual)
 # notify { "This is a ${vmname} virtual machine!!.": }
   #}
- include nginx
+ #include nginx
  include memcached
  include users::admins
  include wrappers::epel
